@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mists & Scents — site vitrine
 
-## Getting Started
+Parfumerie à Lomé (Togo). Next.js 16 + React Three Fiber (flacon 3D).
 
-First, run the development server:
+## Lancer le site
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run build && npm start   # version production
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Copier `.env.example` en `.env.local` et remplir :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | Rôle |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Adresse publique du site (Google, aperçus WhatsApp, IA) |
+| `ADMIN_KEY` | Clé secrète du tableau de bord `/admin` |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Le **numéro WhatsApp**, Instagram, TikTok et moyens de paiement se règlent dans `CONFIG` en haut de [src/data/products.ts](src/data/products.ts).
 
-## Learn More
+## Ajouter un parfum
 
-To learn more about Next.js, take a look at the following resources:
+1. Enregistrer la capture (Telegram, WhatsApp…) dans `images_a_traiter/` en la nommant comme le futur id : `asad-bourbon.png`.
+2. `python tools/prepare_images.py` → crée `public/products/full/…webp` et la miniature `thumbs/…webp`
+   (la barre de prix Telegram est retirée automatiquement ; `--brut` pour une photo normale).
+3. Copier la photo dans `images_a_traiter/originaux/` puis `python tools/studio_images.py asad-bourbon`
+   → détoure le flacon (`public/products/cut/…webp`) et crée l'aperçu WhatsApp/Google (`studio/…jpg`).
+   Première fois : `python -m pip install "rembg[cpu]" opencv-python-headless`.
+   Si une main ou du décor reste visible, ajouter un réglage dans `TWEAKS` en haut du script.
+4. Copier un bloc dans `PRODUCTS` de [src/data/products.ts](src/data/products.ts) et changer les valeurs.
+   `images` = photos d'ambiance montrées après le flacon ; laisser `[]` si la photo montre des mains.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Meilleur rendu : un flacon posé sur une table, photographié de face à la lumière du jour, sans main.
+Tant qu'un flacon n'est pas détouré, le site affiche sa photo, puis à défaut une jaquette avec son nom.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Accords signature (layering)
 
-## Deploy on Vercel
+[src/data/accords.ts](src/data/accords.ts) : duos et trios de parfums à superposer, avec la recette.
+Ils apparaissent sur l'accueil, dans les fiches produit et en résultat du quiz (choisis selon genre, âge et moment).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Occasions (« Je cherche un parfum pour… »)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[src/data/occasions.ts](src/data/occasions.ts) : rendez-vous, cadeau, cérémonie, soirée, bureau, chaleur.
+Chaque occasion a sa page `/occasion/<slug>` et, pour chaque parfum, la **raison** pour laquelle il convient.
+
+## SEO & assistants IA
+
+- Une page par parfum (`/parfum/<id>`) et par occasion, avec titre, description et image d'aperçu.
+- Données structurées schema.org : boutique, produits (prix en XOF), FAQ, fil d'Ariane.
+- `/sitemap.xml`, `/robots.txt` (robots de ChatGPT, Claude, Perplexity… autorisés).
+- `/llms.txt` : résumé du catalogue pour les IA, généré automatiquement depuis le catalogue.
+
+## Statistiques — `/admin`
+
+Sans service externe ni cookie de suivi. Le tableau de bord montre : visiteurs, parcours d'achat,
+parfums les plus regardés / ajoutés / commandés, **recherches** (et celles **sans résultat** = demande à saisir),
+occasions consultées, réponses au quiz, provenance des visiteurs, parfums jamais vus.
+
+Les données sont écrites dans `.data/` (un fichier par mois) : il faut un hébergement Node avec disque
+(VPS, Render, Railway…). Sur Vercel, remplacer les deux fonctions de [src/lib/events-store.ts](src/lib/events-store.ts) par une base (ex. Upstash Redis).

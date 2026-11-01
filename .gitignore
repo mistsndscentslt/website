@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# statistiques du site (données privées)
+/.data
+# captures en attente / traitées
+/images_a_traiter/*
+!/images_a_traiter/.gitkeep
+!.env.example
