@@ -1,6 +1,6 @@
 {
   "node": {
-    "80011b43c4806539b19c59c9dd8e608570ded5a275": {
+    "8031f4391145a9f26130814b24cb6666ada687f6a3": {
       "workers": {
         "app/(site)/parfum/[id]/page": {
           "moduleId": 33078,
