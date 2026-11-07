@@ -57,7 +57,7 @@ export const CONFIG = {
   // frais de livraison minimum à Lomé, en FCFA (le montant exact est confirmé sur WhatsApp)
   livraisonDes: 1000,
   // Adresse du site une fois en ligne (sert aux aperçus de liens partagés)
-  siteUrl: "https://mistsandscents.com",
+  siteUrl: "https://mistandscents.shop",
 };
 
 export const GENRES: Record<Genre, string> = { femme: "Elle", homme: "Lui", mixte: "Mixte" };
