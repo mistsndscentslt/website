@@ -63,44 +63,46 @@ Les données sont écrites dans `.data/` (ou dans `DATA_DIR`), un fichier par mo
 ## Mise en ligne sur o2switch
 
 Le site a besoin de Node (tableau de bord, statistiques) : ce n'est **pas** un site statique à poser dans `public_html`.
-On compile sur le PC et on envoie un dossier `dist/` autonome ; rien n'est compilé ni installé sur le serveur.
+Rien n'est compilé ni installé sur le serveur : on y envoie le site déjà compilé.
 
-### 1. Préparer `dist/` (sur le PC)
+### Comment ça marche
 
-1. Vérifier `NEXT_PUBLIC_SITE_URL` dans `.env.local` (elle est **figée au moment du build**).
-2. `npm run build:dist` → crée `dist/` et `dist.zip` (même contenu).
+À chaque push sur `main`, GitHub Actions ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) compile le site
+sous Linux (`npm run build:dist`) et ajoute le résultat sur la branche **`deploy`** du dépôt.
+Sur o2switch, le dossier de l'application est un clone de cette branche : on le met à jour depuis cPanel.
 
-`dist/` ne contient ni `.env.local`, ni `.data/` : les secrets se règlent dans cPanel.
+`NEXT_PUBLIC_SITE_URL` est figée au moment du build : la régler dans GitHub
+(*Settings → Secrets and variables → Actions → Variables*). Sans elle, le site utilise `CONFIG.siteUrl`.
 
-### 2. Première mise en ligne (cPanel)
+### Première mise en ligne (cPanel)
 
 1. **Setup Node.js App** → *Create Application* :
-   - Node.js version : la plus récente proposée (**20.9 minimum**, 22 conseillé)
-   - Application mode : `Production`
-   - Application root : `mistsandscents` (dossier dans `/home/<compte>/`, **hors** `public_html`)
-   - Application URL : le domaine
-   - Application startup file : `server.js`
-   - Environment variables :
-     `ADMIN_KEY` = la clé du tableau de bord, `DATA_DIR` = `/home/<compte>/mists-data`
-   - *Create*.
-2. **Gestionnaire de fichiers** → ouvrir `/home/<compte>/mistsandscents/`, supprimer ce que cPanel y a mis par défaut,
-   envoyer `dist.zip`, faire *Extract*, puis supprimer le zip. On doit voir `server.js`, `package.json`,
-   `node_modules/`, `public/` et `.next/` (dossier caché : *Paramètres* → *Afficher les fichiers cachés*).
-3. Retour dans **Setup Node.js App** → *Restart*.
-4. **SSL/TLS Status** : vérifier que le certificat (AutoSSL) couvre le domaine et `www`.
+   Node.js **22**, mode `Production`, racine `mistsandscents`, l'URL du domaine, fichier de démarrage `server.js`.
+   Dans *Variables d'environnement* : `ADMIN_KEY` (clé du tableau de bord) et, tant que les statistiques
+   sont en fichiers, `DATA_DIR` = `/home/<compte>/mists-data`. *Enregistrer*, puis **Arrêter l'application**.
+2. **Gestionnaire de fichiers** → `/home/<compte>/mistsandscents/` : supprimer `public/`, `tmp/` et `server.js`
+   que cPanel a créés (le dossier doit être **vide** pour pouvoir y cloner).
+3. **Git™ Version Control** → *Create* :
+   URL `https://github.com/mistsndscentslt/website.git`, chemin `mistsandscents`, nom `mistsandscents` → *Create*.
+4. Toujours dans Git Version Control → *Manage* sur ce dépôt → *Checked-Out Branch* : **`deploy`** → *Update*.
+   Le dossier contient alors `server.js`, `package.json`, `node_modules/`, `public/`, `.next/`.
+5. **Setup Node.js App** → *Démarrer* / *Redémarrer*.
+6. **SSL/TLS Status** : vérifier le certificat (AutoSSL) du domaine.
 
-⚠️ Ne **pas** cliquer *Run NPM Install* : `node_modules/` est déjà fourni (et prévu pour tourner sans compilation).
+⚠️ Ne **pas** cliquer *Run NPM Install* : `node_modules/` est déjà fourni (compilé sous Linux par GitHub).
 
-### 3. Mises à jour suivantes
+### Mettre le site à jour
 
-1. `npm run build:dist`
-2. Dans `/home/<compte>/mistsandscents/` : supprimer `.next/`, `node_modules/`, `public/`, `server.js`, `package.json`
-   (les statistiques ne sont pas touchées : elles sont dans `DATA_DIR`), envoyer et extraire `dist.zip`.
-3. *Restart* dans **Setup Node.js App**.
+1. Pousser sur `main`, attendre que l'action *Build pour o2switch* soit verte (onglet *Actions* sur GitHub, 2 à 3 min).
+2. cPanel → **Git™ Version Control** → *Manage* → *Pull or Deploy* → **Update from Remote**.
+3. **Setup Node.js App** → **Redémarrer**.
+
+Les variables d'environnement (clé admin, accès MySQL…) restent dans cPanel : ni Git ni les mises à jour n'y touchent.
+Le dépôt est **public** : ne jamais y mettre de mot de passe ni de fichier `.env`.
 
 ### En cas de souci
 
 - **Page d'erreur Passenger** : lire `stderr.log` dans le dossier de l'application.
-- **Message « node_modules … virtual environment »** de cPanel : il vient du bouton NPM ou de la modification
-  de l'application. Supprimer `node_modules/`, enregistrer le réglage, puis renvoyer `dist.zip` et *Restart*.
-- **Tester `dist/` sur le PC avant d'envoyer** : `cd dist` puis `node server.js` → http://localhost:3000
+- **Message « node_modules … virtual environment »** de cPanel : il vient du bouton NPM ; ne pas l'utiliser.
+- **Sans GitHub** : `npm run build:dist` sur le PC produit `dist.zip`, à extraire dans le dossier de l'application.
+- **Tester le build sur le PC** : `cd dist` puis `node server.js` → http://localhost:3000
