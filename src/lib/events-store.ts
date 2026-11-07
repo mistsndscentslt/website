@@ -6,7 +6,10 @@ import path from "path";
    Fonctionne sur tout hébergement Node avec disque (VPS, Render, Railway, o2switch Node…).
    Sur Vercel (pas de disque persistant), remplacer ces deux fonctions par une base (ex : Upstash Redis). */
 
-const DIR = path.join(process.cwd(), ".data");
+// DATA_DIR : à régler sur o2switch vers un dossier HORS de l'application (ex. /home/<compte>/mists-data)
+// pour que les statistiques survivent quand on remplace le dossier de l'application à chaque mise en ligne.
+// (le commentaire turbopackIgnore empêche le build d'embarquer tout le projet dans le serveur)
+const DIR = process.env.DATA_DIR || path.join(/* turbopackIgnore: true */ process.cwd(), ".data");
 
 export type StoredEvent = Record<string, unknown> & { type: string; ts: number; sid?: string; mobile?: boolean };
 

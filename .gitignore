@@ -46,3 +46,7 @@ next-env.d.ts
 /images_a_traiter/*
 !/images_a_traiter/.gitkeep
 !.env.example
+
+# dossier à envoyer sur o2switch (npm run build:dist)
+/dist
+/dist.zip
