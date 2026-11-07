@@ -190,7 +190,7 @@
       "imgOptMaxInputPixels": 268402689,
       "imgOptSequentialRead": null,
       "imgOptMozjpeg": true,
-      "isrFlushToDisk": true,
+      "isrFlushToDisk": false,
       "workerThreads": false,
       "optimizeCss": false,
       "nextScriptWorkers": false,

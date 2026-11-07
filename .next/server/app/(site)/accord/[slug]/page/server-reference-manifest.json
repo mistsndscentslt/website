@@ -1,6 +1,6 @@
 {
   "node": {
-    "8031f4391145a9f26130814b24cb6666ada687f6a3": {
+    "8005b403e7311a55351cf3b8629c47c203907247b9": {
       "workers": {
         "app/(site)/accord/[slug]/page": {
           "moduleId": 20113,
