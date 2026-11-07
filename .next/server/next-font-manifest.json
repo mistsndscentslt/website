@@ -1,0 +1,42 @@
+{
+  "app": {
+    "[project]/src/app/(site)/accord/[slug]/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/(site)/occasion/[slug]/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/(site)/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/(site)/parfum/[id]/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/(site)/qui-sommes-nous/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/_not-found/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ],
+    "[project]/src/app/admin/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

@@ -1,0 +1,37 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </brand/logo-mark.png>; rel=preload; as=\"image\", </products/full/khamrah.webp>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/page,_N_T_/,_N_T_/index"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp",
+    "/!KHNpdGUp/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49184,
+        "slots": {
+          "children": {
+            "hints": 49280,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/0574d05a00dc4ddcaa8949649bd67b0cbcb30c1b51e38c4909d3404aab6791e8/$/index",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(site)/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "node": {
+    "80b529e2cfef75ca12abc7a79b8370044de6dba931": {
+      "workers": {
+        "app/(site)/accord/[slug]/page": {
+          "moduleId": 20113,
+          "async": false
+        },
+        "app/(site)/occasion/[slug]/page": {
+          "moduleId": 56833,
+          "async": false
+        },
+        "app/(site)/page": {
+          "moduleId": 84712,
+          "async": false
+        },
+        "app/(site)/parfum/[id]/page": {
+          "moduleId": 33078,
+          "async": false
+        },
+        "app/(site)/qui-sommes-nous/page": {
+          "moduleId": 10832,
+          "async": false
+        }
+      },
+      "filename": "src/components/Sections.tsx",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    },
+    "40c95d84f1cf0f1a8caab0a7e79691788b5b2cdee5": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": 50452,
+          "async": false
+        }
+      },
+      "filename": "src/app/admin/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "zxsEUmqaUpf31EkSyO9uwl+4Bzm94qhIh2+MfqRqHvI="
+}

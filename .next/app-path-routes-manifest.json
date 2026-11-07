@@ -1,0 +1,17 @@
+{
+  "/(site)/accord/[slug]/page": "/accord/[slug]",
+  "/(site)/occasion/[slug]/page": "/occasion/[slug]",
+  "/(site)/page": "/",
+  "/(site)/parfum/[id]/page": "/parfum/[id]",
+  "/(site)/qui-sommes-nous/page": "/qui-sommes-nous",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/api/track/route": "/api/track",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/favicon.ico/route": "/favicon.ico",
+  "/icon.png/route": "/icon.png",
+  "/llms.txt/route": "/llms.txt",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

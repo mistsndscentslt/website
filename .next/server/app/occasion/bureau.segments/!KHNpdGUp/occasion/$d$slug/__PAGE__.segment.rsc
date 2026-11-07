@@ -1,0 +1,43 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1tq6ppe__m8m-.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+e:I[97367,["$4"],"OutletBoundary"]
+f:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$4"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$4"],"$15"]
+8:X
+8:C
+9:X
+9:300
+9:300
+12:X
+c:[["children",{"s":"__PAGE__","h":49314,"d":{"r":["$","$3","c",{"children":["$Ld",[["$","script","script-0",{"src":"/_next/static/chunks/31r4t8y6g9398.js","async":true}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":"$12","s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":null,"s":[]},"h":49250,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"occasion","h":49218,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":"(site)","h":49186,"c":"$Q2"}]]
+19:X
+1c:X
+0:{"t":{"t":{"s":"","h":49234,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F4EEE6"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":"$19","s":"$9"}},"a":"$@1a","u":"$@1b","b":"xPI5ifhl62Cqs1G1cHhpY","r":"$1c"}
+1e:"/_next/static/chunks/3ysq8ng2u_44r.js"
+1f:"/_next/static/chunks/24m2t1t99bt7h.js"
+20:"/_next/static/chunks/31r4t8y6g9398.js"
+21:I[46953,["$4","$1e","$1f","$20"],"TrackOnMount"]
+22:I[22016,["$4","$1e","$1f","$20"],""]
+23:I[280,["$4","$1e","$1f","$20"],"default"]
+24:I[27201,["$4"],"IconMark"]
+12:T4,slug19:T4,slug9:C
+19:C
+1c:C
+12:C
+1d:T49d,[{"@context":"https://schema.org","@type":"ItemList","name":"Bureau & quotidien","itemListElement":[{"@type":"ListItem","position":1,"url":"https://mistsandscents.com/parfum/versus-ocean-bleu","name":"Versus Océan Bleu"},{"@type":"ListItem","position":2,"url":"https://mistsandscents.com/parfum/hayaati-gold-elixir","name":"Hayaati Gold Elixir"},{"@type":"ListItem","position":3,"url":"https://mistsandscents.com/parfum/badee-al-oud-sublime","name":"Bade'e Al Oud Sublime"},{"@type":"ListItem","position":4,"url":"https://mistsandscents.com/parfum/hayaati-rose","name":"Hayaati Rose"},{"@type":"ListItem","position":5,"url":"https://mistsandscents.com/parfum/mousuf-azure","name":"Mousuf Azure"},{"@type":"ListItem","position":6,"url":"https://mistsandscents.com/parfum/matelot","name":"Matelot"}]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://mistsandscents.com/"},{"@type":"ListItem","position":2,"name":"Occasions","item":"https://mistsandscents.com/#occasions"},{"@type":"ListItem","position":3,"name":"Bureau & quotidien","item":"https://mistsandscents.com/occasion/bureau"}]}]d:["$","div",null,{"className":"page page--occasion","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$1d"}}],["$","$L21",null,{"event":{"type":"occasion_view","slug":"bureau"}}],["$","nav",null,{"className":"crumbs","aria-label":"Fil d'Ariane","children":[["$","$L22",null,{"href":"/","children":"Accueil"}]," / ",["$","$L22",null,{"href":"/#occasions","children":"Occasions"}]," / ",["$","span",null,{"children":"Bureau & quotidien"}]]}],["$","header",null,{"className":"occ-hero","children":[["$","p",null,{"className":"kicker","children":"Élégant, jamais envahissant"}],["$","h1",null,{"className":"section__title","children":["Un parfum ",["$","em",null,{"children":"bureau & quotidien"}]]}],["$","p",null,{"className":"section__lead","children":"Au travail, à l'école ou à l'église, on veut sentir bon sans déranger. Ces parfums sont propres, lumineux et agréables pour tout le monde autour de vous."}]]}],["$","$L23",null,{"slug":"bureau"}],["$","aside",null,{"className":"occ-tip","children":[["$","span",null,{"className":"occ-tip__label","children":"Le conseil Mists & Scents"}],["$","p",null,{"children":"Au bureau, deux vaporisations le matin suffisent. Gardez un petit flacon dans le sac pour une retouche après le déjeuner."}]]}],["$","section",null,{"className":"occ-others","children":[["$","h2",null,{"children":"Une autre occasion ?"}],["$","div",null,{"className":"occ-others__list","children":[[["$","$L22","rendez-vous",{"href":"/occasion/rendez-vous","className":"chip","children":"Pour un rendez-vous"}],["$","$L22","cadeau",{"href":"/occasion/cadeau","className":"chip","children":"Pour offrir"}],["$","$L22","ceremonie",{"href":"/occasion/ceremonie","className":"chip","children":"Mariage & cérémonies"}],["$","$L22","soiree",{"href":"/occasion/soiree","className":"chip","children":"Soirée & sorties"}],["$","$L22","chaleur",{"href":"/occasion/chaleur","className":"chip","children":"Fraîcheur sous le soleil"}]],["$","$L22",null,{"href":"/#quiz","className":"chip","children":"Faire le quiz"}]]}]]}]]}]
+17:[["$","title","0",{"children":"Parfum pour le bureau et le quotidien — frais et élégant | Mists & Scents"}],["$","meta","1",{"name":"description","content":"Parfums discrets et élégants pour le travail et le quotidien : Versus Océan Bleu, Hayaati, Bade'e Al Oud Sublime, Mousuf… Livraison à Lomé."}],["$","meta","2",{"name":"keywords","content":"parfum Lomé,parfumerie Togo,Lattafa Lomé,parfum oriental Togo,acheter parfum Lomé,Khamrah Lomé,Yara Lattafa Togo,idée cadeau parfum Lomé,parfum pas cher Lomé"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"https://mistsandscents.com/occasion/bureau"}],["$","meta","5",{"property":"og:title","content":"Parfum pour le bureau et le quotidien — frais et élégant"}],["$","meta","6",{"property":"og:description","content":"Parfums discrets et élégants pour le travail et le quotidien : Versus Océan Bleu, Hayaati, Bade'e Al Oud Sublime, Mousuf… Livraison à Lomé."}],["$","meta","7",{"property":"og:image","content":"https://mistsandscents.com/og/occasion-bureau.jpg"}],["$","meta","8",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Bureau & quotidien"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"Parfum pour le bureau et le quotidien — frais et élégant"}],["$","meta","14",{"name":"twitter:description","content":"Parfums discrets et élégants pour le travail et le quotidien : Versus Océan Bleu, Hayaati, Bade'e Al Oud Sublime, Mousuf… Livraison à Lomé."}],["$","meta","15",{"name":"twitter:image","content":"https://mistsandscents.com/og/occasion-bureau.jpg"}],["$","meta","16",{"name":"twitter:image:alt","content":"Bureau & quotidien"}],["$","meta","17",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","18",{"name":"twitter:image:width","content":"1200"}],["$","meta","19",{"name":"twitter:image:height","content":"630"}],["$","link","20",{"rel":"icon","href":"/favicon.ico?favicon.32-ooxkihsovi.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","21",{"rel":"icon","href":"/icon.png?icon.3jjtr8k-5x39l.png","sizes":"512x512","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0gcvh70xlzfo8.png","sizes":"180x180","type":"image/png"}],["$","$L24","23",{}]]
+10:null
+1b:false
+1a:1699
+b:"$undefined"
+7:"$undefined"
+18:"$undefined"
+11:"$undefined"

@@ -1,0 +1,47 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </brand/logo-mark.png>; rel=preload; as=\"image\", </products/full/eclaire.webp>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/parfum/layout,_N_T_/(site)/parfum/[id]/layout,_N_T_/(site)/parfum/[id]/page,_N_T_/parfum/eclaire"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp",
+    "/!KHNpdGUp/parfum/$d$id/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49184,
+        "slots": {
+          "children": {
+            "hints": 49216,
+            "slots": {
+              "children": {
+                "hints": 49248,
+                "slots": {
+                  "children": {
+                    "hints": 49312,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/0bf5482c516296799d27bf55303dd3a00fb016b1ceef00a9790260d3ef26b4e6/$/parfum/eclaire",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(site)/parfum/[id]/page"
+    },
+    "isFallback": false
+  }
+}

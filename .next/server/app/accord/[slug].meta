@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </brand/logo-mark.png>; rel=preload; as=\"image\", </_next/static/chunks/3kvbx4f7hioqc.css>; rel=preload; as=\"style\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/accord/layout,_N_T_/(site)/accord/[slug]/layout,_N_T_/(site)/accord/[slug]/page"
+  },
+  "postponed": "3464:8[\"slug\"][0,{\"nextSegmentId\":0,\"rootFormatContext\":{\"insertionMode\":0,\"selectedValue\":null,\"tagScope\":0,\"viewTransition\":null},\"progressiveChunkSize\":12800,\"resumableState\":{\"idPrefix\":\"\",\"nextFormID\":0,\"streamingFormat\":0,\"bootstrapScriptContent\":\"(globalThis[\\\"TURBOPACK\\\"] || (globalThis[\\\"TURBOPACK\\\"] = [])).push({\\\"otherChunks\\\":[\\\"static/chunks/3sbzd0705nkrr.js\\\",\\\"static/chunks/3l_qmp-61z4yc.js\\\",\\\"static/chunks/20box33a0_n53.js\\\"],\\\"runtimeModuleIds\\\":[94553]});\",\"bootstrapScripts\":[{\"src\":\"/_next/static/chunks/3sbzd0705nkrr.js\"}],\"instructions\":0,\"hasBody\":false,\"hasHtml\":false,\"unknownResources\":{\"font\":{\"/_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2\":[],\"/_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2\":[],\"/_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2\":[]}},\"dnsResources\":{},\"connectResources\":{\"default\":{},\"anonymous\":{},\"credentials\":{}},\"imageResources\":{\"/brand/logo-mark.png\":[]},\"styleResources\":{\"/_next/static/chunks/3kvbx4f7hioqc.css\":[]},\"scriptResources\":{},\"moduleUnknownResources\":{},\"moduleScriptResources\":{}},\"replayNodes\":[[\"sl\",0,[[\"Context\",0,[[\"Context\",0,[[\"ServerInsertedHTMLProvider\",0,[[\"Context\",0,[[\"io\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"is\",0,[[\"Fragment\",0,[[\"Context\",2,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"ai\",0,[[\"aa\",0,[[\"ii\",\"/!KHNpdGUp/accord/$d$slug/__PAGE__/_head\",[[\"Fragment\",\"h\",[[\"__next_metadata_boundary__\",2,[[\"div\",0,[[\"Suspense\",0,[],1,[\"Suspense Fallback\",0,[],null],1]],null]],null]],null]],null],[\"__next_root_layout_boundary__\",1,[[\"Fragment\",\"c\",[[\"html\",1,[[\"body\",1,[[null,0,[[\"Activity\",\"(site)\",[[\"Context\",\"(site)\",[[null,2,[[\"Fragment\",0,[[\"E\",0,[[\"D\",0,[[\"Fragment\",0,[[\"n\",0,[[\"Fragment\",0,[[\"G\",0,[[\"Fragment\",0,[[null,0,[[\"l\",0,[[\"x\",0,[[\"w\",0,[[\"F\",0,[[\"Context\",0,[[\"Fragment\",\"c\",[[null,1,[[\"Context\",0,[[\"main\",3,[[null,0,[[\"Activity\",\"accord\",[[\"Context\",\"accord\",[[null,2,[[\"Fragment\",0,[[\"E\",0,[[\"D\",0,[[\"Fragment\",0,[[\"n\",0,[[\"Fragment\",0,[[\"G\",0,[[\"Fragment\",0,[[null,0,[[\"l\",0,[[\"x\",0,[[\"w\",0,[[\"F\",0,[[\"Context\",0,[[\"Fragment\",\"c\",[[null,1,[[\"Activity\",\"slug|d\",[[\"Context\",\"slug|d\",[[null,2,[[\"Fragment\",0,[[\"E\",0,[[\"D\",0,[[\"Fragment\",0,[[\"n\",0,[[\"Fragment\",0,[[\"G\",0,[[\"Fragment\",0,[[null,0,[[\"Fragment\",0,[[\"x\",0,[[\"w\",0,[[\"F\",0,[[\"Context\",0,[[\"Fragment\",\"c\",[[null,1,[[\"Activity\",\"__PAGE__\",[[\"Context\",\"__PAGE__\",[[null,2,[[\"Fragment\",0,[[\"E\",0,[[\"D\",0,[[\"Fragment\",0,[[\"n\",0,[[\"Fragment\",0,[[\"G\",0,[[\"Fragment\",0,[[null,0,[[\"Fragment\",0,[[\"x\",0,[[\"w\",0,[[\"F\",0,[[\"Context\",0,[[\"Fragment\",\"c\",[[\"__next_outlet_boundary__\",2,[[\"Suspense\",0,[],3,[\"Suspense Fallback\",0,[],null],3]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],\"replaySlots\":-1}]eJxVj8FugkAURf/lrSfNAIMw7GxrWtvYGncGWDyGh2BA6MxoMWT+vcG4qLube5KTeycwttcEyQQVWVVDMjkGClV969IMYl6EviRfVVRFoULPx0JFGMkiDiLOhShpURYoAy8DluYszWDcrsOmqtuF//JjvDdPvdfDPoM8n5V0svo6hwu2Z4IENq9987FajutDP34f17+b4/4TGFg8GEjSnIGx2BIkAecMbNORsdgNkHiRFDz2RMDjKHyKRRAzoHFo5jfCl0IuIl8KBpou2DYlWoJEcu4Y1GhW49A2qrG7f7DC1tADXd11d6IJy13f2y1q7L6wo9tA5xjQSenrYKl87s+ncqnn6ZNz7g82OXG7",
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp",
+    "/!KHNpdGUp/accord/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49184,
+        "slots": {
+          "children": {
+            "hints": 49216,
+            "slots": {
+              "children": {
+                "hints": 49248,
+                "slots": {
+                  "children": {
+                    "hints": 49312,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/8feb003704ca06c7b534f028b658a5aad3401896965c14e5843d15f41f4b5b40/$/accord/[slug]",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(site)/accord/[slug]/page"
+    },
+    "isFallback": true
+  }
+}

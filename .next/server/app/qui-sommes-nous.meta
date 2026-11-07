@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </brand/logo-mark.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/qui-sommes-nous/layout,_N_T_/(site)/qui-sommes-nous/page,_N_T_/qui-sommes-nous"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp",
+    "/!KHNpdGUp/qui-sommes-nous/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49184,
+        "slots": {
+          "children": {
+            "hints": 49216,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/c3692cd3829057a1c58a30949f41937323c7cbb3178e252ac22e3c4c833ca03e/$/qui-sommes-nous",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(site)/qui-sommes-nous/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "80b529e2cfef75ca12abc7a79b8370044de6dba931": {
+      "workers": {
+        "app/(site)/accord/[slug]/page": {
+          "moduleId": 20113,
+          "async": false
+        }
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "src/components/Sections.tsx"
+    }
+  },
+  "edge": {}
+}

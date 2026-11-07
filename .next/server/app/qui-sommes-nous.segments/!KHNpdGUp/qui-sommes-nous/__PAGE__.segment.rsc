@@ -1,0 +1,37 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1tq6ppe__m8m-.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+b:"/_next/static/chunks/3ysq8ng2u_44r.js"
+c:"/_next/static/chunks/24m2t1t99bt7h.js"
+d:I[22016,["$4","$b","$c"],""]
+e:I[46953,["$4","$b","$c"],"TrackedLink"]
+f:I[97367,["$4"],"OutletBoundary"]
+10:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$4"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$4"],"$16"]
+18:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+9:300
+9:300
+9:C
+13:X
+13:C
+a:[["children",{"s":"__PAGE__","h":49314,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"page page--about","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://mistsandscents.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Qui sommes-nous\",\"item\":\"https://mistsandscents.com/qui-sommes-nous\"}]}"}}],["$","nav",null,{"className":"crumbs","aria-label":"Fil d'Ariane","children":[["$","$Ld",null,{"href":"/","children":"Accueil"}]," / ",["$","span",null,{"children":"Qui sommes-nous"}]]}],["$","header",null,{"className":"occ-hero","children":[["$","p",null,{"className":"kicker","children":"Qui sommes-nous"}],["$","h1",null,{"className":"section__title","children":["L'art de trouver ",["$","em",null,{"children":"votre parfum."}]]}],["$","p",null,{"className":"section__lead about__lead","children":"Un parfum, c'est bien plus qu'une odeur : c'est une signature, un souvenir, une émotion qu'on laisse derrière soi."}]]}],["$","div",null,{"className":"about__body","children":[["$","p",null,{"children":["Chez ",["$","strong",null,{"children":"Mists & Scents"}],", on sait combien il est difficile de choisir une fragrance sans pouvoir la sentir. C'est pour ça que nous ne nous contentons pas de vendre des parfums : ",["$","strong",null,{"children":"nous vous guidons"}],". On écoute vos envies, on apprend à connaître vos goûts (ou ceux de la personne à qui vous voulez faire plaisir), puis on vous propose les senteurs qui vous ressemblent vraiment."]}],["$","ul",null,{"className":"about__families","children":[["$","li","Gourmand",{"children":[["$","strong",null,{"children":"Gourmand"}]," ",["$","em",null,{"children":"et réconfortant"}]]}],["$","li","Épicé",{"children":[["$","strong",null,{"children":"Épicé"}]," ",["$","em",null,{"children":"et audacieux"}]]}],["$","li","Boisé",{"children":[["$","strong",null,{"children":"Boisé"}]," ",["$","em",null,{"children":"et élégant"}]]}],["$","li","Frais",{"children":[["$","strong",null,{"children":"Frais"}]," ",["$","em",null,{"children":"et léger"}]]}]]}],["$","p",null,{"children":"Qu'il soit discret pour tous les jours ou très tenace pour vos soirées, il existe un parfum fait pour vous. Notre mission, c'est de vous aider à le trouver."}]]}],["$","aside",null,{"className":"occ-tip about__cta","children":[["$","span",null,{"className":"occ-tip__label","children":"Pour vous, pour ceux que vous aimez"}],["$","p",null,{"children":"Laissez-vous guider."}],["$","div",null,{"className":"about__ctas","children":[["$","$Ld",null,{"className":"btn btn--light","href":"/#collection","children":"Découvrir nos parfums"}],["$","$Le",null,{"className":"btn btn--wa-solid","href":"https://wa.me/22891500402?text=Bonjour%20Mists%20%26%20Scents%2C%20j'aimerais%20un%20conseil%20parfum.","target":"_blank","rel":"noopener","event":{"type":"whatsapp_contact","source":"qui-sommes-nous"},"children":[["$","svg",null,{"viewBox":"0 0 24 24","width":"18","height":"18","fill":"currentColor","aria-hidden":"true","children":["$","path",null,{"d":"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.5-.3Z"}]}],"Demander un conseil"]}]]}]]}]]}],null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":"$13","s":"$9"}}]]
+2:[["children",{"s":"qui-sommes-nous","h":49218,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":"(site)","h":49186,"c":"$Q2"}]]
+1a:X
+1a:C
+1d:X
+1d:C
+0:{"t":{"t":{"s":"","h":49234,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F4EEE6"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Qui sommes-nous | Mists & Scents"}],["$","meta","1",{"name":"description","content":"Mists & Scents, votre boutique de parfums en ligne et votre conseillère personnelle : on vous aide à trouver la fragrance qui vous ressemble, pour vous ou pour offrir."}],["$","meta","2",{"name":"keywords","content":"parfum Lomé,parfumerie Togo,Lattafa Lomé,parfum oriental Togo,acheter parfum Lomé,Khamrah Lomé,Yara Lattafa Togo,idée cadeau parfum Lomé,parfum pas cher Lomé"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"https://mistsandscents.com/qui-sommes-nous"}],["$","meta","5",{"property":"og:title","content":"Qui sommes-nous"}],["$","meta","6",{"property":"og:description","content":"Mists & Scents, votre boutique de parfums en ligne et votre conseillère personnelle : on vous aide à trouver la fragrance qui vous ressemble, pour vous ou pour offrir."}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"Qui sommes-nous"}],["$","meta","9",{"name":"twitter:description","content":"Mists & Scents, votre boutique de parfums en ligne et votre conseillère personnelle : on vous aide à trouver la fragrance qui vous ressemble, pour vous ou pour offrir."}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.32-ooxkihsovi.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/icon.png?icon.3jjtr8k-5x39l.png","sizes":"512x512","type":"image/png"}],["$","link","12",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0gcvh70xlzfo8.png","sizes":"180x180","type":"image/png"}],["$","$L18","13",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":"$1a","s":"$9"}},"a":"$@1b","u":"$@1c","b":"xPI5ifhl62Cqs1G1cHhpY","r":"$1d"}
+11:null
+1c:false
+1b:null
+7:"$undefined"
+19:"$undefined"
+12:"$undefined"

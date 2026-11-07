@@ -1,0 +1,42 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1tq6ppe__m8m-.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+e:I[97367,["$4"],"OutletBoundary"]
+f:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$4"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$4"],"$15"]
+8:X
+8:C
+9:X
+9:300
+9:300
+12:X
+c:[["children",{"s":"__PAGE__","h":49314,"d":{"r":["$","$3","c",{"children":["$Ld",null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":"$12","s":"$9"}}]]
+a:[["children",{"s":{"n":"id","t":"d","k":null,"s":[]},"h":49250,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"parfum","h":49218,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":"(site)","h":49186,"c":"$Q2"}]]
+19:X
+1c:X
+0:{"t":{"t":{"s":"","h":49234,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F4EEE6"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":"$19","s":"$9"}},"a":"$@1a","u":"$@1b","b":"xPI5ifhl62Cqs1G1cHhpY","r":"$1c"}
+1e:"/_next/static/chunks/3ysq8ng2u_44r.js"
+1f:"/_next/static/chunks/24m2t1t99bt7h.js"
+20:I[46953,["$4","$1e","$1f"],"TrackOnMount"]
+21:I[22016,["$4","$1e","$1f"],""]
+22:I[95438,["$4","$1e","$1f"],"default"]
+23:I[27201,["$4"],"IconMark"]
+12:T2,id19:T2,id9:C
+19:C
+1c:C
+12:C
+1d:T4c5,[{"@context":"https://schema.org","@type":"Product","name":"Hayaati Gold Elixir","image":["https://mistsandscents.com/products/full/hayaati-gold-elixir.webp"],"description":"Blanc et or, lumineux comme son flacon. Un élixir ambré et fruité, solaire et élégant, qui laisse une belle traînée.","category":"Parfum mixte · Gourmand, Fruité","brand":{"@type":"Brand","name":"Lattafa"},"offers":{"@type":"Offer","url":"https://mistsandscents.com/parfum/hayaati-gold-elixir","price":14000,"priceCurrency":"XOF","availability":"https://schema.org/InStock","seller":{"@id":"https://mistsandscents.com/#store"},"areaServed":"TG","shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","minValue":1000,"currency":"XOF"},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"TG"}}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://mistsandscents.com/"},{"@type":"ListItem","position":2,"name":"Collection","item":"https://mistsandscents.com/#collection"},{"@type":"ListItem","position":3,"name":"Hayaati Gold Elixir","item":"https://mistsandscents.com/parfum/hayaati-gold-elixir"}]}]d:["$","div",null,{"className":"page page--product","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$1d"}}],["$","$L20",null,{"event":{"type":"view_product","id":"hayaati-gold-elixir","source":"page"}}],["$","nav",null,{"className":"crumbs","aria-label":"Fil d'Ariane","children":[["$","$L21",null,{"href":"/","children":"Accueil"}]," / ",["$","$L21",null,{"href":"/#collection","children":"Collection"}]," / ",["$","span",null,{"children":"Hayaati Gold Elixir"}]]}],["$","div",null,{"className":"page__card","children":["$","$L22",null,{"product":{"id":"hayaati-gold-elixir","nom":"Hayaati Gold Elixir","marque":"Lattafa","prix":14000,"genre":"mixte","familles":["gourmand","fruite"],"volume":"100 ml","images":["hayaati-gold-elixir"],"accords":["Ambré","Fruité","Vanille","Lumineux"],"notes":{"tete":["Bergamote","Pamplemousse","Cassis"],"coeur":["Cuir","Safran","Pêche"],"fond":["Vanille","Ambre","Musc","Vétiver"]},"description":"Blanc et or, lumineux comme son flacon. Un élixir ambré et fruité, solaire et élégant, qui laisse une belle traînée."},"variant":"page"}]}]]}]
+17:[["$","title","0",{"children":"Hayaati Gold Elixir Lattafa — 14 000 FCFA à Lomé | Mists & Scents"}],["$","meta","1",{"name":"description","content":"Blanc et or, lumineux comme son flacon. Parfum mixte, 14 000 FCFA. Commande sur WhatsApp, livraison à Lomé."}],["$","meta","2",{"name":"keywords","content":"parfum Lomé,parfumerie Togo,Lattafa Lomé,parfum oriental Togo,acheter parfum Lomé,Khamrah Lomé,Yara Lattafa Togo,idée cadeau parfum Lomé,parfum pas cher Lomé"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"https://mistsandscents.com/parfum/hayaati-gold-elixir"}],["$","meta","5",{"property":"og:title","content":"Hayaati Gold Elixir · Lattafa — 14 000 FCFA"}],["$","meta","6",{"property":"og:description","content":"Blanc et or, lumineux comme son flacon. Commande sur WhatsApp, livraison à Lomé."}],["$","meta","7",{"property":"og:image","content":"https://mistsandscents.com/og/hayaati-gold-elixir.jpg"}],["$","meta","8",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Hayaati Gold Elixir — 14 000 FCFA"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"Hayaati Gold Elixir · Lattafa — 14 000 FCFA"}],["$","meta","15",{"name":"twitter:description","content":"Blanc et or, lumineux comme son flacon. Commande sur WhatsApp, livraison à Lomé."}],["$","meta","16",{"name":"twitter:image","content":"https://mistsandscents.com/og/hayaati-gold-elixir.jpg"}],["$","meta","17",{"name":"twitter:image:alt","content":"Hayaati Gold Elixir — 14 000 FCFA"}],["$","meta","18",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","19",{"name":"twitter:image:width","content":"1200"}],["$","meta","20",{"name":"twitter:image:height","content":"630"}],["$","link","21",{"rel":"icon","href":"/favicon.ico?favicon.32-ooxkihsovi.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/icon.png?icon.3jjtr8k-5x39l.png","sizes":"512x512","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0gcvh70xlzfo8.png","sizes":"180x180","type":"image/png"}],["$","$L23","24",{}]]
+10:null
+1b:false
+1a:1611
+b:"$undefined"
+7:"$undefined"
+18:"$undefined"
+11:"$undefined"

@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/admin/page": [
+      "static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2",
+      "static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2",
+      "static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

@@ -1,0 +1,3 @@
+{
+  "/(site)/accord/[slug]/page": "app/(site)/accord/[slug]/page.js"
+}

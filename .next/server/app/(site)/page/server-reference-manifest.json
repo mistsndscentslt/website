@@ -1,0 +1,15 @@
+{
+  "node": {
+    "80b529e2cfef75ca12abc7a79b8370044de6dba931": {
+      "workers": {
+        "app/(site)/page": {
+          "moduleId": 84712,
+          "async": false
+        }
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "src/components/Sections.tsx"
+    }
+  },
+  "edge": {}
+}

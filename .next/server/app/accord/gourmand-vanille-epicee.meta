@@ -1,0 +1,47 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d236bb4c0caf68e4-s.p.14og3_uq6yls0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/faf223fcebdab05f-s.p.0rrr4v4rsoo3q.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </brand/logo-mark.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/accord/layout,_N_T_/(site)/accord/[slug]/layout,_N_T_/(site)/accord/[slug]/page,_N_T_/accord/gourmand-vanille-epicee"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp",
+    "/!KHNpdGUp/accord/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49184,
+        "slots": {
+          "children": {
+            "hints": 49216,
+            "slots": {
+              "children": {
+                "hints": 49248,
+                "slots": {
+                  "children": {
+                    "hints": 49312,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/8feb003704ca06c7b534f028b658a5aad3401896965c14e5843d15f41f4b5b40/$/accord/gourmand-vanille-epicee",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(site)/accord/[slug]/page"
+    },
+    "isFallback": false
+  }
+}
