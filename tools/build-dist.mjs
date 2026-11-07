@@ -46,6 +46,9 @@ rmSync(path.join(dist, ".data"), { recursive: true, force: true });
 
 console.log("✓ dist/ prêt");
 
+// Sur GitHub Actions, pas besoin du zip : dist/ part directement sur la branche deploy.
+if (process.env.CI) process.exit(0);
+
 // Archive zip : le tar de Windows 10+ (bsdtar) sait écrire du zip ; ailleurs on utilise `zip`.
 try {
   if (process.platform === "win32") {

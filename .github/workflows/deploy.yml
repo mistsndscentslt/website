@@ -1,0 +1,57 @@
+# À chaque push sur main : compile le site sous Linux et ajoute le résultat (dist/) sur la branche `deploy`.
+# Sur o2switch : cPanel > Git Version Control clone la branche `deploy` dans le dossier de l'application ;
+# pour mettre en ligne : « Update from Remote » puis « Restart » dans Setup Node.js App.
+
+name: Build pour o2switch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Compilation (dist/)
+        run: npm run build:dist
+        env:
+          # Facultatif : Settings > Secrets and variables > Actions > Variables.
+          # Sans valeur, le site utilise CONFIG.siteUrl de src/data/products.ts.
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+
+      - name: Ajout sur la branche deploy
+        run: |
+          REPO="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          # On repart de la branche existante (sans réécrire l'historique) : le « Update from Remote »
+          # de cPanel fait un simple git pull, qui échouerait si la branche était écrasée.
+          if git ls-remote --exit-code --heads "$REPO" deploy >/dev/null; then
+            git clone -q --depth 1 -b deploy "$REPO" ../deploy
+          else
+            git init -q -b deploy ../deploy
+          fi
+          rsync -a --delete --exclude .git dist/ ../deploy/
+          cd ../deploy
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          # --force : certains paquets de node_modules contiennent un .gitignore qui masquerait des fichiers utiles
+          git add -A --force
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -q -m "build ${GITHUB_SHA::7} : $(git -C "$GITHUB_WORKSPACE" log -1 --format=%s)"
+          git push -q "$REPO" HEAD:deploy
